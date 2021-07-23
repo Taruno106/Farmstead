@@ -13,7 +13,9 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Volkhov', serif;
 }
-
+p{
+    color: #707070;
+}
 .container {
     padding: 0;
 }
@@ -319,6 +321,88 @@ h1, h2, h3, h4, h5, h6 {
     color: #209B47;
 }
 
+
+
+/* QUALITY  */
+
+.quality{
+    padding-top: 40px;
+}
+
+h5.small-title{
+    color: #fb811e;
+    font-size: 22px;
+}
+.title-style{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #060606;
+}
+
+.grids_info span.fa{
+    font-size: 30px;
+    color: #FB811E;
+}
+.grips_info h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.radius-image{
+    border-radius: 30px;
+}
+.img__box{
+    background-color: #FB811E;
+    color: #fff;
+    position: absolute;
+    left: -85px;
+    bottom: 38px;
+    padding: 40px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+    min-width: 300px;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+}
+.img__box .img__title{
+    font-size: 70px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+.img__box p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+
+/* GRID  */
+.grid__Content .feature-unit{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 2rem 1rem;
+    background: #fff;
+    transition: 0.3s ease-in;
+}
+.grid__Content .features15-para h4{
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #060606;
+}
+.grid__Content .feature-unit:hover, .grid__Content .feature-unit.active{
+    border: 1px solid #eee;
+    transition: 0.3s ease-in;
+    box-shadow: -1px 2px 12px -9px var(0,0,0,0.41);
+    background: #FFF;
+}
+
+.grid__Content .features15-para p{
+    text-decoration: none;
+}
 
 
 
