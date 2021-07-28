@@ -420,6 +420,68 @@ p {
     padding-bottom: 25px;
 }
 
+/* QUALITY */
+.quality{
+    position: relative;
+    top: 100px;
+    padding-top: 40px;
+}
+
+h5.small-title{
+    color: #fb811e;
+    font-size: 22px;
+}
+
+.title-style{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #060606;
+}
+
+.grids_info span.fa{
+    font-size: 30px;
+    color: #FB811E;
+}
+
+.grids_info h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.radius-image{
+    border-radius: 30px;
+}
+
+.img__box{
+    background-color: #FB811E;
+    color: #fff;
+    position: absolute;
+    left: -85px;
+    bottom: 38px;
+    padding: 40px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+    min-width: 300px;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+}
+
+.img__box .img__title{
+    font-size: 70px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.img__box p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+
 /* GRID */
 .grid {
     position: relative;
@@ -457,4 +519,6 @@ p {
 .grid__item a:hover .grid__para h3 {
     color: #209B47;
 }
+
+
 
