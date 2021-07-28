@@ -378,31 +378,7 @@ h5.small-title{
     letter-spacing: .2px;
 }
 
-/* GRID  */
-.grid__Content .feature-unit{
-    margin-top: 30px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    padding: 2rem 1rem;
-    background: #fff;
-    transition: 0.3s ease-in;
-}
-.grid__Content .features15-para h4{
-    font-size: 22px;
-    line-height: 25px;
-    font-weight: 600;
-    color: #060606;
-}
-.grid__Content .feature-unit:hover, .grid__Content .feature-unit.active{
-    border: 1px solid #eee;
-    transition: 0.3s ease-in;
-    box-shadow: -1px 2px 12px -9px var(0,0,0,0.41);
-    background: #FFF;
-}
 
-.grid__Content .features15-para p{
-    text-decoration: none;
-}
 
 
 
