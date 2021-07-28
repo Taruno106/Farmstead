@@ -13,9 +13,14 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Volkhov', serif;
 }
-p{
+
+
+p {
+    font-size: 17px;
+    line-height: 27px;
     color: #707070;
 }
+
 .container {
     padding: 0;
 }
@@ -116,11 +121,6 @@ p{
     padding: 0 20px;
     cursor: auto;
 }
-
-
-
-
-
 
 
 
@@ -277,8 +277,6 @@ p{
 }
 
 .natural__left p {
-    font-size: 17px;
-    line-height: 27px;
     padding-right: 20px;
 }
 
@@ -321,7 +319,45 @@ p{
     color: #209B47;
 }
 
+/* ORGANICFOOD */
+.organicfood {
+    position: relative;
+    top: 150px;
+    background-color: #009F4D;
+}
 
+.organicfood__top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.organicfood__top .side {
+    width: 50%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white; 
+}
+
+.organicfood__title::after {
+    content: "Services";
+    font-family: 'Volkhov', serif;
+    font-size: 12vw;
+    font-weight: bold;
+    opacity: 0.14;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, 50%);
+    bottom: 50%;
+}
+
+.organicfood__title h3 {
+    font-size: 22px;
+}
 
 /* QUALITY  */
 
@@ -381,8 +417,98 @@ h5.small-title{
 
 
 
+.organicfood__title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
 
+.organicfood__bottom {
+    padding: 80px 0;
+}
 
+.organicfood__detail {
+    background-color: white;
+    border-radius: 20px;
+    
+}
 
+.organicfood__item img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
 
+.organicfood__item button {
+    margin: 30px 20px 20px 25px;
+    padding: 4px 17px;
+    border: 1px;
+    border-radius: 15px;
+
+    background-color: rgba(0, 159, 77, 0.15);
+    color: #009F4D;
+    font-weight: 600;
+    cursor: text;
+}
+
+.organicfood__para {
+    padding-left: 25px;
+}
+
+.organicfood__para h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+.organicfood__para h3:hover {
+    color: #009F4D;
+}
+
+.organicfood__para p {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+/* GRID */
+.grid {
+    position: relative;
+    top: 200px;
+}
+
+.grid__item a {
+    padding: 0 10px;
+    width: 100%;    
+    border-radius: 10px;
+    color: #eee;
+    text-decoration: none;
+    border: 1px solid white;
+
+    transition: all 0.3s;
+}
+
+.grid__item a:hover {
+    border: 1px solid #eee;
+}
+
+.grid__item .grid__img img {
+    width: 100%;
+}
+
+.grid__item .grid__para h3 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #060606;
+
+    transition: all 0.3s;
+}
+
+.grid__item a:hover .grid__para h3 {
+    color: #209B47;
+}
 
