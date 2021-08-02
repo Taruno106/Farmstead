@@ -522,6 +522,54 @@ h5.small-title{
     text-decoration: none;
     
 }
+.column .product_effect{
+    position: relative;
+}
+.product_effect1 a{
+    color: slategray;
+    text-decoration: none;
+    background-color: transparent;
+}
+.gallery-img-grid .product_effect1{
+    position: absolute;
+}
+h5.gall-text{
+    position: absolute;
+    z-index: 0;
+    color: #fff;
+    bottom: 0;
+    font-weight: bold;
+    background: rgb(255 255 255 / 27%);
+    padding: 6px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 20px;
+    margin-bottom: 31px;
+}
+.product_effect1::before{
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 1;
+}
+.product_effect1:hover{
+    opacity: 0.5;
+}
+/* HIỆU ỨNG VỆT SÁNG */
+@keyframes shine{
+    100% {
+    left: 125%; }
+}
+.product_effect1:hover .product_effect1::before{
+    animation: shine 0.75s;
+}
 
 
 /* client */
