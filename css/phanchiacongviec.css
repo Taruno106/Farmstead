@@ -1,0 +1,56 @@
+/* 
+- gồm có 9 phần:
+
++ Header  
++ Welcome
++ Natural
++ Organicfood
++ Quality
++ Grid
++ Product
++ Client 
++ Footer 
+
+
+* Phân Công Nhiệm vụ:
+
+DEV 1 : Toàn
+******** Đã hoàn thành Layout********
+
++ Header  
++ Welcome
++ Natural
++ Organicfood
++ Client 
++ Grid
+
+**************************************
+
+******** Đã hoàn thành Layout********
+
+DEV 2 : Nhanh
++ Quality
++ Product
++ Footer 
+
+**************************************
+
+*********Hiệu ứng********
+- Toàn  => chuyển layout đen trắng (done)
+- Nhanh => Back To Top (done)
+
+******** RESPONSIVE ******
+- Nhanh :
+
++ Header  => 0%
++ Welcome => 20%
++ Natural => 70%
++ Organicfood => 0%
++ Quality => 100%
++ Grid => 
++ Product =>
++ Client => 0%
++ Footer => 100%
+
+
+*/

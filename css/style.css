@@ -776,8 +776,13 @@ h5.gall-text{
         font-size: 30px;
     }
 }
-/* responsive organicfood */
 
+
+/* responsive Grid */
+
+@media (max-width:576px) {
+    
+}
 
 
 
