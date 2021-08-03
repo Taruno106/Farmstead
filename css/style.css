@@ -643,8 +643,13 @@ h5.gall-text{
   outline: none;
   width: 80%;
   color: #707070;
-  border: 1px solid #009f4d;
+  border: 1px solid #fafffc;
   border-radius: 30px 0px 0px 30px;
+}
+.footer .subscribe  input[type="email"]:hover{
+    border: 1px solid #009f4d;
+    border-radius: 30px 0px 0px 30px;
+    transition: 0.3s;
 }
 
 .footer .subscribe button {
@@ -689,7 +694,92 @@ h5.gall-text{
   font-size: 15px;
   line-height: 35px;
 }
+/* BACK TO TOP   */
+.backToTop {
+    position: fixed;
+    display: block;
+    bottom: 90px;
+    right:15px;
+    z-index:9;
+    font-size:16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    line-height:40px;
+    padding: 0;
+    background-color: #009F4d;
+    text-align: center;
+    
+    opacity: 0;
+    visibility: hidden;
+}
+.cd-top--is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
 /* RESPONSIVE  */
+
+/* responsive header */
+@media (max-width:1440px){
+
+}
+
+/* responsive welcome */
+@media (max-width:1440px) {
+  .welcome h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .welcome__left--content h3 {
+    font-size: 35px;
+  }
+  .welcome__left--content p {
+    font-size: 20px;
+  }
+}
+@media (max-width:1140px){
+    .welcome__left--content h3{
+        margin-left: 10px; 
+        
+    }
+}
+
+
+/* Responsive natural */
+@media  (max-width:620px){
+    .container{
+        max-width: 500px;
+        
+    }
+    .natural__left h3{
+        font-size: 20px;
+    }
+    .natural__left h1{
+        font-size: 32px;
+    }
+}
+@media  (max-width:500px){
+    .container{
+        max-width: 450px;
+        
+    }
+    .natural__left h3{
+        font-size: 18px;
+    }
+    .natural__left h1{
+        font-size: 30px;
+    }
+}
+/* responsive organicfood */
+
+
+
 
 /* Responsive Quality   */
 @media all and (max-width: 1440px) {
@@ -758,6 +848,9 @@ h5.gall-text{
     display: block !important;
     text-align: center;
   }
+  .footer{
+      left:15px;
+  }
 }
 
 @media screen and (max-width: 801px) {
@@ -773,7 +866,7 @@ h5.gall-text{
 }
 
 @media screen and (max-width: 420px) {
-  .footer .grid {
+  .footer{
     grid-gap: 15px;
     grid-template-columns: 1fr;
   }
@@ -789,7 +882,7 @@ h5.gall-text{
   }
 }
 
-/* //footer */
+
 
 
 
